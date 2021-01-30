@@ -1,6 +1,100 @@
-/* Zerando */
-*{
-    padding: 0px;
-    margin: 0px;
+/* CLASS GENÉRICA */
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+/* HEADER */
+header{
+    background-color: #F3DC89;
+}
+
+nav{
+    padding: 10px 0;
+}
+
+.telefone{
+    border-radius: 30px;
+    background: #1162DB;
+    padding: 5px 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.fa-phone-alt{
+    padding: 12px;
+    border-radius: 50%;
+    background: #337DEC;
+}
+
+.whatsapp{
+    border-radius: 30px;
+    background: #03C969;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.fa-whatsapp{
+    padding: 12px;
+    border-radius: 50%;
+    background: #00E676;
+}
+
+.titulo-form{
+    padding: 20px;
+    background-color: #231F20;
+    color: #fff;
+}
+
+form{
+    padding:20px;
+    max-width: 438,5px;
+    background-color: #fff;
+}
+
+
+/* COMO PODEMOS AJUDAR */
+.como-podemos-ajudar{
+    background-color:#F8F7F3;
+}
+
+.ajuda{
+    height: 228px;
+    background-color: #000;
+    color: #FCD64F;
+}
+
+.text-frase-ajuda{
+    margin-left: 1.5em;
+    max-width: 700px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.icone-mensagem{
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 9pt;
+}
+
+.icones-row{
+    margin-top: 50px;
+}
