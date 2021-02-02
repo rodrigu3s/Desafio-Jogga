@@ -15,12 +15,25 @@ nav{
     padding: 10px 0;
 }
 
+.logo{
+    cursor: pointer;
+}
+
+.t-mobile {
+    display: none;
+}
+
+.w-mobile{
+    display: none;
+}
+
 .telefone{
     border-radius: 30px;
     background: #1162DB;
     padding: 5px 20px;
     font-weight: bold;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .fa-phone-alt{
@@ -34,6 +47,7 @@ nav{
     background: #03C969;
     padding: 5px 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .fa-whatsapp{
@@ -45,13 +59,35 @@ nav{
 .titulo-form{
     padding: 20px;
     background-color: #231F20;
+    min-width: 380px;
     color: #fff;
 }
 
-form{
+.form-web{
     padding:20px;
     max-width: 438,5px;
+    min-width: 380px;
     background-color: #fff;
+}
+
+.texto-p{
+    min-width: 474px;
+}
+
+.p-titulo{
+    display: none;
+}
+
+.form-mobile{
+    display: none;
+}
+
+.titulo-form-mobile{
+    display: none;
+}
+
+.face-google-mobile{
+    display: none;
 }
 
 
@@ -95,6 +131,386 @@ form{
     font-size: 9pt;
 }
 
-.icones-row{
-    margin-top: 50px;
+
+/* NOSSOS SERVISOS */
+
+.servico{
+    height: 227px;
+    background-color: #FCD64F;
+    justify-content: center;
 }
+
+.titulo-servico{
+    margin-left: 20px;
+}
+
+.conteudo-servico{
+    max-width: 810px;
+    margin-left: 20px;
+}
+
+
+/* MARCAS PARCEIRAS */
+.marcas-parceiras{
+    background-color: #F8F7F3;
+    padding: 20px;
+}
+
+.fale-conosco{
+    border: #000 2px solid;
+    padding: 15px;
+}
+
+hr{
+    height: 5px;
+    width: 50px;
+    background-color: #FCD64F;
+}
+
+
+/* CONQUISTE MAIS CLIENTES */
+.titulo-lista{
+    font-weight: 500; 
+}
+
+
+/* FALE COM NOSSO TIME */
+
+.fale-com-nosso-time{
+    background-color:#231F20;
+    height:212px;
+}
+
+.nosso-time{
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* FOOTER */
+footer{ 
+    background-color:#231F20;
+    height: 132px;
+}
+
+
+
+/* MEDIA QUERES */
+
+@media(max-width:1280px){
+    .mulher-celular{
+        width: 350px;
+        height: 500px;
+    }
+
+    .p2-titulo{
+        font-size: 24px;
+    }
+
+    .form-web{
+        max-width: 400px;
+        min-width: 350px;
+        background-color: #fff;
+    }
+
+    .titulo-form{
+        background-color: #231F20;
+        min-width: 350px;
+        color: #fff;
+    }
+
+    .telefone{
+        padding: 3px 10px;
+        font-size: 10pt;
+    }
+    
+    .fa-phone-alt{
+        padding: 10px;
+       
+    }
+    
+    .whatsapp{
+        padding: 3px 10px;
+        font-size: 10pt;
+    }
+    
+    .fa-whatsapp{
+        padding: 10px;
+        
+    }
+
+    .face-google{
+        width:280px
+    }
+
+}
+
+
+@media(max-width:1235px){
+    .mulher-celular{
+        width: 300px;
+        height: 450px;
+    }
+
+    .p2-titulo{
+        font-size: 18px;
+    }
+
+    .form-web{
+        max-width: 400px;
+        min-width: 350px;
+        background-color: #fff;
+    }
+
+    .texto-p{
+        min-width: 300px;
+    }
+
+    .fale-conosco{
+        flex-direction: column;
+    }
+    
+}
+
+
+@media(max-width:1048px){
+    .titulo-e-form{
+        max-width: 700px;
+    }
+
+    .telefone{
+        padding: 3px 10px;
+        font-size: 9pt;
+    }
+    
+    .fa-phone-alt{
+        padding: 10px;
+       
+    }
+    
+    .whatsapp{
+        padding: 3px 10px;
+        font-size: 9pt;
+    }
+    
+    .fa-whatsapp{
+        padding: 10px;
+        
+    }
+
+    .face-google{
+        width: 230px
+    }
+}
+
+
+@media(max-width:1020px){
+    .icons-skills-col{
+        flex-direction: center;
+    }
+
+    .coluna1{
+        flex-direction: column;
+    }
+
+    .coluna2{
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width:992px){
+    .fale-conosco{
+        flex-direction: column;
+    }
+    .nos-apresentaremos{
+        text-align: justify;
+    }
+
+    .voce-tera{
+        display: none;
+    }
+
+    .conquiste-mais{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .solucao-digital{
+        align-items: center;
+        justify-content: center;
+        margin-left: 120px;
+        /* border: 2px red solid; */
+    }
+
+    .capitura{
+        display: none;
+    }
+
+}
+
+@media(max-width: 973px){
+
+    .titulo-e-form{
+        max-width: 1px;
+    }
+
+    .formulario{
+        display: none;
+    }
+
+    .p2-titulo{
+        display: none;
+    }
+
+    .p-titulo{
+        display: inline;
+    }
+
+    .use-anuncios-web{
+        display: none;
+    }
+
+    .face-google{
+        display: none;
+    }
+
+    .face-google-mobile{
+        display: inline;
+        width: 230px
+    }
+
+    .form-mobile{
+        display: inline;
+    }
+   
+
+    .use-anuncios-mobile{
+        background-color: gainsboro;
+        padding: 20px;
+    }
+
+    .titulo-form-mobile{
+        display: inline;
+        display: flex;    
+        padding: 20px;
+        background-color: #231F20;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+ 
+}
+
+
+@media(max-width:769px){
+
+    .nosso-time{
+        flex-direction: column;
+    }
+
+}
+
+
+@media(max-width:545px){
+    
+    .mulher-celular{
+        width: 250px;
+        height: 350px;
+    }
+
+    .p-titulo{
+        font-size: 12pt;
+    }
+
+    .face-google-mobile{
+        width: 123px
+    }
+
+}
+
+
+@media(max-width: 518px){
+    .whats{
+        display: none;
+    }
+
+    .tel{
+        display: none;
+    }
+
+    
+    .t-mobile{
+        display: flex;
+        justify-content: center;
+        background-color: #1162DB;
+        width: 50%;
+        padding: 5px 20px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .w-mobile{
+        display: flex;
+        justify-content: center;
+        background-color:#03C969 ;
+        width: 50%;
+        padding: 5px 20px;
+        font-weight: bold;
+        color: #fff;
+    }
+}
+
+
+@media(max-width:477px){
+    .coluna1{
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+    }
+
+    .coluna2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media(max-width:466px){
+
+    .logo-marca{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .podemos-ajudar{
+        
+        flex-direction: column;
+    }
+
+    .ajuda{
+        min-width: 200px;
+    }
+
+    .face-google-mobile{
+        width: 100px
+    }
+
+}
+
+
+@media(max-width:350px){
+
+    .mulher-celular{
+        width: 200px;
+        height: 300px;
+    }
+
+    .p-titulo{
+        font-size: 9pt;
+    }
+
+}
+

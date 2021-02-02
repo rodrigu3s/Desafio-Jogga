@@ -18,22 +18,22 @@
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 
-    <!-- CSS Default -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+     <!-- CSS Default -->
+     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
     <!-- HEADER -->
     <header>
-        <div class="container-fluid ">
+        <div class="container-fluid tela1 ">
             <nav class="d-flex justify-content-around">
 
-                <img src="./assets/img/logo-jogga.svg" alt="">
+                <img class="logo"src="./assets/img/logo-jogga.svg" alt="logo-jogga">
 
                 <div class="d-flex text-white">
 
-                    <a class="telefone centralizar">
+                    <a class="telefone tel centralizar">
                         <i class="fas fa-phone-alt mr-2"></i>
                         <div class="d-flex flex-column ">
                             <span>LIGUE AGORA</span>
@@ -41,7 +41,7 @@
                         </div>
                     </a>
 
-                    <a class="whatsapp centralizar">
+                    <a class="whatsapp whats centralizar">
                         <i class="fab fa-whatsapp mr-2"></i>
                         <div class="d-flex flex-column ">
                             <span>Fale Conosco</span>
@@ -52,67 +52,149 @@
                 </div>
             </nav>
 
-            <div class="centralizar mx-5">
+            <div class=" centralizar mx-5 tela1">
 
-                <div class="col-4">
-                    <img src="./assets/img/g1.png" alt="mulher com celular">
-                </div>
-
-                <div class="col-4 d-flex justify-content-around align-items-center flex-column">
-
-                    <p class="h2 text-uppercase">Conquiste mais clientes a um clique de distância</p>
-
-                    <p>Use anuncios no Facebook, Instagram e Google e apareça para os clientes certos, nos locais certos
-                    </p>
-
+                <div class="col-4 centralizar ">
+                    <img class="mulher-celular"src="./assets/img/g1.png" alt="mulher com celular">
                     <div>
-                        <img src="./assets/img/faceGogle.svg" alt="facebook e google">
-                    </div>
+                        <p class="h2 text-uppercase p-titulo">Conquiste mais clientes a um clique de distância</p>
 
-                </div>
-
-                <div class="col-4">
-                    <div>
-
-                        <div class="titulo-form">
-                            <p class="text-center">Soluções personalizadas para sua empresa. Fale conosco.</p>
-                        </div>
-
-                        <form>
-
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput" class="form-label">NOME</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" >
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label">E-MAIL</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="lucinanof_@dominio.com">
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput3" class="form-label">TELEFONE</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput3" >
-                            </div>
-
-                            <div class="d-flex flex-row-reverse">
-                                <button type="submit" class="btn btn-primary ">ENVIAR</button>
-                            </div>
-                              
-                        </form>
-
+                        <img class="face-google-mobile"src="./assets/img/faceGogle.svg" alt="facebook e google">
                     </div>
                     
                 </div>
-            </div>
+
+                <div class="titulo-e-form d-flex ">
+                        
+                    <div class="col-4 texto-p d-flex justify-content-around align-items-center flex-column">
+
+                        <p class="h2 text-uppercase p2-titulo">Conquiste mais clientes a um clique de distância</p>
+
+                        <p class="use-anuncios-web">Use anuncios no Facebook, Instagram e Google e apareça para os clientes certos, nos locais certos
+                        </p>
+
+                        <div>
+                            <img class="face-google"src="./assets/img/faceGogle.svg" alt="facebook e google">
+                        </div>
+
+                    </div>
+
+                    <div class="col-4 formulario">
+                        <div>
+
+                            <div class="titulo-form">
+                                <p class="text-center">Soluções personalizadas para sua empresa. Fale conosco.</p>
+                            </div>
+
+                            <form class="form-web">
+
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput" class="form-label">NOME</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput" >
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput2" class="form-label">E-MAIL</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="lucinanof_@dominio.com">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput3" class="form-label">TELEFONE</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput3" >
+                                </div>
+
+                                <div class="d-flex flex-row-reverse">
+                                    <button type="submit" class="btn btn-primary ">ENVIAR</button>
+                                </div>
+                                
+                            </form>
+
+                        </div>
+                        
+                    </div>
+                </div>     
+            </div>    
         </div>
     </header>
+
+
+
+    <!-- BUTTONS MOBILE  -->
+    <div class="container-fluid botoes-mobile">
+        <div class="row">
+            <div class="t-mobile">
+                <a class="centralizar">
+                    <i class="fas fa-phone-alt mr-2"></i>
+                    <div class="d-flex flex-column ">
+                        <span>LIGUE AGORA</span>
+                        <span>81 00000 0000</span>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="w-mobile">
+                <a class="centralizar">
+                    <i class="fab fa-whatsapp mr-2"></i>
+                    <div class="d-flex flex-column ">
+                        <span>Fale Conosco</span>
+                        <span>WHATSAPP</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+       
+    </div>
+
+
+    <!-- FORM MOBILE -->
+
+    <div class="container-fluid form-mobile">
+
+        <div class="col-12 use-anuncios-mobile">
+            <p>Use anuncios no Facebook, Instagram e Google e apareça para os clientes certos, nos locais certos
+            </p>
+        </div>
+
+        <div class="col-12 titulo-form-mobile">
+            <p class="text-center">Soluções personalizadas para sua empresa. Fale conosco.</p>
+        </div>
+
+
+        <div class="col-12">
+            <div>
+                <form>
+
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">NOME</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" >
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">E-MAIL</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="lucinanof_@dominio.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput3" class="form-label">TELEFONE</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput3" >
+                    </div>
+
+                    <div class="d-flex flex-row-reverse">
+                        <button type="submit" class="btn btn-primary ">ENVIAR</button>
+                    </div>
+                    
+                </form>
+
+            </div>
+            
+        </div>
+    </div>
 
     
     <!-- COMO PODEMOS AJUDAR -->
     <section class="container-fluid como-podemos-ajudar">
 
-        <div class="row mb-4">
+        <div class="row mb-5 podemos-ajudar">
 
             <div class="col-4 d-flex flex-row-reverse ajuda ">
 
@@ -131,113 +213,296 @@
         </div>
 
         
-        <div class="centralizar">
+        <div class="centralizar icons-skills mb-5 ">
 
-            <div class="skills col-2">
-                <div class="icone-skills">
-                    <img src="./assets/img/icon1.svg" alt="Anúncios no Facebook, Instagram, Google e outros">
+            <div class="container d-flex icons-skills-col flex-wrap centralizar">
+
+                <div class="coluna1 d-flex ">
+
+
+                    <div class="skills col-2  offset-1">
+                        <div class="icone-skills">
+                            <img src="./assets/img/icon1.svg" alt="Anúncios no Facebook, Instagram, Google e outros">
+                        </div>
+                        <div class="icone-mensagem">
+                            <span>Anúncios no Facebook, Instagram, Google e outros</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills col-2 ">
+                        <div class="icone-skills">
+                            <img src="./assets/img/icon2.svg" alt="Site otimizado para vendas">
+                        </div>
+                        <div class="icone-mensagem">
+                            <span>Site otimizado para vendas</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills col-2">
+                        <div class="icone-skills">
+                            <img src="./assets/img/icon3.svg" alt="Integração com CRM*">
+                        </div>
+                        <div class="icone-mensagem">
+                            <span>Integração com CRM*</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills col-2">
+                        <div class="icone-skills">
+                            <img src="./assets/img/icon4.svg" alt="Painel de resultados em tempo real">
+                        </div>
+                        <div class="icone-mensagem">
+                            <span>Painel de resultados em tempo real</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills col-2">
+                        <div class="icone-skills">
+                            <img src="./assets/img/icon5.svg" alt="Banco de chamadas recebidas">
+                        </div>
+                        <div class="icone-mensagem">
+                            <span>Banco de chamadas recebidas</span>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="icone-mensagem">
-                    <span>Anúncios no Facebook, Instagram, Google e outros</span>
+
+                <div class="coluna2 d-flex ">
+
+                    <div class="skills col-2 offset-1 ">
+                        <div class="icone-skills">
+                            <img src="./assets/img/icon6.svg" alt="Planejamento de anúncios">
+                        </div>
+                        <div class="icone-mensagem">
+                            <span>Planejamento de anúncios</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills col-2">
+                        <div class="icone-skills">
+                            <img src="./assets/img/icon7.svg" alt="Criação de artes de anúncios">
+                        </div>
+                        <div class="icone-mensagem">
+                            <span>Criação de artes de anúncios</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills col-2">
+                        <div class="icone-skills">
+                            <img src="./assets/img/icon8.svg" alt="Relatórios individuais">
+                        </div>
+                        <div class="icone-mensagem">
+                            <span>Relatórios individuais</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills col-2">
+                        <div class="icone-skills">
+                            <img src="./assets/img/icon9.svg" alt="Otimizações dos anúncios">
+                        </div>
+                        <div class="icone-mensagem">
+                            <span>Otimizações dos anúncios</span>
+                        </div>
+                    </div>
+        
+                    <div class="skills col-2">
+                        <div class="icone-skills">
+                            <img src="./assets/img/icon10.svg" alt="Suporte especializado">
+                        </div>
+                        <div class="icone-mensagem">
+                            <span>Suporte especializado</span>
+                        </div>
+                    </div>
+
                 </div>
+            </div> 
+        </div>
+    </section>
+
+
+
+    <!-- NOSSOS SERVISOS -->
+    <div class="container nossos-servicos">
+        <div class="row">
+            <div class="col-12 servico d-flex flex-column ">
+
+                <div class="titulo-servico">
+                    <span class=" h4 text-uspanpercase">
+                        NOSSOS SERVIÇOS
+                    </span>
+                </div>
+
+                <div class="conteudo-servico mt-3">
+                    <p>Na Jogga, nós entendemos a importância de cada venda. Por isso, criamos uma solução completa para atração de clientes. Para que você e sua equipe se preocupem apenas em fechar negócios.</p>
+                </div>
+
             </div>
-
-            <div class="skills col-2">
-                <div class="icone-skills">
-                    <img src="./assets/img/icon2.svg" alt="Site otimizado para vendas">
-                </div>
-                <div class="icone-mensagem">
-                    <span>Site otimizado para vendas</span>
-                </div>
-            </div>
-
-            <div class="skills col-2">
-                <div class="icone-skills">
-                    <img src="./assets/img/icon3.svg" alt="Integração com CRM*">
-                </div>
-                <div class="icone-mensagem">
-                    <span>Integração com CRM*</span>
-                </div>
-            </div>
-
-            <div class="skills col-2">
-                <div class="icone-skills">
-                    <img src="./assets/img/icon4.svg" alt="Painel de resultados em tempo real">
-                </div>
-                <div class="icone-mensagem">
-                    <span>Painel de resultados em tempo real</span>
-                </div>
-            </div>
-
-            <div class="skills col-2">
-                <div class="icone-skills">
-                    <img src="./assets/img/icon5.svg" alt="Banco de chamadas recebidas">
-                </div>
-                <div class="icone-mensagem">
-                    <span>Banco de chamadas recebidas</span>
-                </div>
-            </div>
-
         </div>
 
+    </div>
 
-        <div class="centralizar icones-row">
 
-            <div class="skills col-2">
-                <div class="icone-skills">
-                    <img src="./assets/img/icon6.svg" alt="Planejamento de anúncios">
+    <section class="container mt-5 marcas-parceiras">
+        <div class="row centralizar mb-5">
+            <div class="col-8 fale-conosco d-flex justify-content-between align-items-center">
+                
+                <div class="d-flex flex-column">
+                    <span class="h4 text-uppercase">
+                        fale com nosso time de especialistas. 
+                    </span>
+                    <span class="nos-apresentaremos">
+                        Nós apresentaremos as melhores <br> soluções digitais para seu negócio.
+                    </span>
                 </div>
-                <div class="icone-mensagem">
-                    <span>Planejamento de anúncios</span>
+                
+                <div class="text-white">
+                    <a class="telefone centralizar">
+                        <i class="fas fa-phone-alt mr-2"></i>
+                        <div class="d-flex flex-column ">
+                            <span>LIGUE AGORA</span>
+                            <span>81 00000 0000</span>
+                        </div>
+                    </a>
                 </div>
+
             </div>
 
-            <div class="skills col-2">
-                <div class="icone-skills">
-                    <img src="./assets/img/icon7.svg" alt="Criação de artes de anúncios">
-                </div>
-                <div class="icone-mensagem">
-                    <span>Criação de artes de anúncios</span>
-                </div>
-            </div>
+            
 
-            <div class="skills col-2">
-                <div class="icone-skills">
-                    <img src="./assets/img/icon8.svg" alt="Relatórios individuais">
-                </div>
-                <div class="icone-mensagem">
-                    <span>Relatórios individuais</span>
-                </div>
-            </div>
+        </div>
+        
+        <div class="row ">
+            <div class="logo-marca">
+                <p class="h4 text-center text-uppercase quem-confia">Quem confia na gente</p>
+                <hr>
 
-            <div class="skills col-2">
-                <div class="icone-skills">
-                    <img src="./assets/img/icon9.svg" alt="Otimizações dos anúncios">
-                </div>
-                <div class="icone-mensagem">
-                    <span>Otimizações dos anúncios</span>
-                </div>
-            </div>
+                <div class="d-flex justify-content-between flex-wrap">
+                    
+                    <img src="./assets/img/m1.svg" alt="logo-ford">
+                
+                    <img src="./assets/img/m2.svg" alt="logo-audi">
+            
+                    <img src="./assets/img/m3.svg" alt="logo-moura">
+                
+                    <img src="./assets/img/m4.svg" alt="logo-lexus">
+            
+                    <img src="./assets/img/m5.svg" alt="logo-fiat">
+            
+                    <img src="./assets/img/m6.svg" alt="logo-jeep">
 
-            <div class="skills col-2">
-                <div class="icone-skills">
-                    <img src="./assets/img/icon10.svg" alt="Suporte especializado">
-                </div>
-                <div class="icone-mensagem">
-                    <span>Suporte especializado</span>
-                </div>
-            </div>
+                    <img src="./assets/img/m7.svg" alt="logo-jaguar">
+                
+                    <img src="./assets/img/m8.svg" alt="logo-hmb">
+            
+                    <img src="./assets/img/m9.svg" alt="logo-mardisa">
+                
+                    <img src="./assets/img/m10.svg" alt="logo-muma">
+            
+                    <img src="./assets/img/m11.svg" alt="logo-queiroz">
+            
+                    <img src="./assets/img/m12.svg" alt="logo-toyolex">
 
+                    <img src="./assets/img/m13.svg" alt="logo-jcpm">
+            
+                    <img src="./assets/img/m14.svg" alt="logo-way">
+
+                    
+                </div>
+
+            </div>
         </div>
 
     </section>
 
 
+    <!-- CONQUISTE MAIS CLIENTES -->
+    <section class="container">
+        <div class="row d-flex flex-column conquiste-mais">
+            <div class="col-6 mt-5">
+                <p class="h4 text-uppercase">
+                    Conquiste mais clientes com Digital
+                </p>
+            </div>
+
+           <div class="d-flex ">
+                <div class="col-6 solucao-digital">
+                    <p>Solução digital de vendas para você ter mais leads e vender mais.</p>
+                    <img class="capitura"src="./assets/img/capitura.JPG" alt="">
+                </div>    
+                <div class="col-6 voce-tera">
+
+                    <p class="titulo-lista">Com a Jogga você terá:</p>
+
+                    <p>&#10003; Site otimizado para geração de leads</p>
+
+                    <p>&#10003; Anúncios nas principais mídias sociais com objetivo de converter seu público em leads</p>
+
+                    <p>&#10003; Equipe especializada em mídia digital responsável pelo planejamento, execução, análise e otimização de suas campanhas.</p>
+
+                    <p>&#10003; Banco de dados com todas as chamadas recebidas</p>
+
+                    <p>&#10003; Painel de controle para visualizar dados de suas chamadas, como, leads gerados, canais, total investido, retorno sob investimento e mais!</p>
+
+                    <p>&#10003; Integração com as principais plataformas de CRM</p>
+
+                    <p>&#10003; Equipe de criação para produção de peças destinadas exclusivamente à anúncios</p>
+
+                    <p>&#10003; Equipe de produção de peças destinadas exclusivamente à anúncios</p>
+
+                    <p>&#10003; Relatórios individuais</p>
+                    
+                    <p>&#10003; Atendimento especializado de uma empresa Google Premier Partner e Facebook Marketing Partner</p>
+                    
+                </div>           
+           </div>
+        </div>
+    </section>
 
 
+    <!-- FALE COM NOSSO TIME -->
+    <section class="container d-flex fale-com-nosso-time mt-5">
+            <div class="col-12 nosso-time d-flex text-white">
+
+                <div class="d-flex flex-column">
+                    <span class="h4 text-uppercase">
+                        Fale com nosso time de especialistas.
+                    </span>
+                    
+                    <span>
+                        Nós apresentaremos as melhores soluções<br> digitais para seu negócio.
+                    </span>
+                </div>
+
+                <div>
+                    <a class="whatsapp centralizar">
+                        <i class="fab fa-whatsapp mr-2"></i>
+                        <div class="d-flex flex-column ">
+                            <span>Fale Conosco</span>
+                            <span>WHATSAPP</span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="container-fluid d-flex mt-5">
+        <div class="col-12 text-white d-flex justify-content-around align-items-center">
+            <div>
+                <p>Política de privacidade</p>
+            </div>
+
+            <div>
+                <img src="./assets/img/logo-footer.svg" alt="logo-jogga">
+            </div>
+
+        </div>
+    </footer>
 
     <!-- BootstrapJS, JS and jQuery -->
-    <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
