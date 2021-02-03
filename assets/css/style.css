@@ -309,13 +309,7 @@ footer{
         flex-direction: center;
     }
 
-    .coluna1{
-        flex-direction: column;
-    }
-
-    .coluna2{
-        flex-direction: column;
-    }
+   
 }
 
 
@@ -384,6 +378,10 @@ footer{
         display: inline;
     }
    
+    .formulario-mobile{
+        padding: 20px;
+        box-shadow: 0 0 1em #231F20;
+    }
 
     .use-anuncios-mobile{
         background-color: gainsboro;
@@ -438,6 +436,10 @@ footer{
         display: none;
     }
 
+    .botoes-mobile{
+        position: fixed;
+        z-index: 1;
+    }
     
     .t-mobile{
         display: flex;
@@ -445,6 +447,7 @@ footer{
         background-color: #1162DB;
         width: 50%;
         padding: 5px 20px;
+        font-size: 9pt;
         font-weight: bold;
         color: #fff;
     }
@@ -454,6 +457,7 @@ footer{
         justify-content: center;
         background-color:#03C969 ;
         width: 50%;
+        font-size: 9pt;
         padding: 5px 20px;
         font-weight: bold;
         color: #fff;
@@ -491,7 +495,16 @@ footer{
     }
 
     .ajuda{
-        min-width: 200px;
+        min-width: 100%;
+    }
+
+    .text-frase-ajuda{
+        width: 75vw;
+        margin-top: 15px;
+    }
+
+    .titulo-ajuda{
+        text-align: center;
     }
 
     .face-google-mobile{
